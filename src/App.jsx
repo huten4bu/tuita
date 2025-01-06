@@ -34,6 +34,9 @@ const App = () => {
               <BeforeText  setInputText={setInputText} convert={convert}/>
               <AfterText outputText={outputText}/> 
               <Setting alphaMap={alphaMap} setAlphaMap={setAlphaMap}/>
+              <nobr><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><a href="https://ctr.stylemap.co.jp/"><img src="https://www.f-counter.net/ani1/65/1736206873/" alt="無料アクセスカウンター" border="0" style={{margin:"0px", padding:"0px", border:"0px"}}/></a></td>
+<td><a href="https://ctr.stylemap.co.jp/"><img src="https://www.f-counter.net/ani2/65/1736206873/" alt="無料アクセスカウンター" border="0" style={{margin:"0px", padding:"0px", border:"0px"}}/></a></td></tr></tbody></table></nobr>
+
           </div>
       </div>
   )
