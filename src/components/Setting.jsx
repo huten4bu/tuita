@@ -11,9 +11,10 @@ const Setting = (props) => {
   
     return (
         <div>
+        <h3>設定</h3>
         {Array.from({ length: 26 }, (_, i) => (
           <React.Fragment key={i}>
-            {i % 7 === 0 && <br />}
+            {i % 7 === 0 && i>0 && <br />}
             <span style={{ marginRight: '10px' }}>
               <label>{String.fromCharCode(65 + i)}:</label>
               <input 

@@ -8,7 +8,7 @@ const BeforeText = (props) => {
             props.setInputText(e.target.value)
             props.convert(e.target.value)
         }}
-        placeholder="ここにテキストを入力してください"
+        placeholder="Please input here."
         rows={4} // テキストエリアの高さを設定
         cols={50} // テキストエリアの幅を設定（任意）
       />
